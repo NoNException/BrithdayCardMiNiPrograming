@@ -1,0 +1,48 @@
+<view class="bg">
+  <view class="velas">
+    <view class="fuego"></view>
+    <view class="fuego"></view>
+    <view class="fuego"></view>
+    <view class="fuego"></view>
+    <view class="fuego"></view>
+  </view>
+  <view class='cake_container'>
+    <view class='cake'></view>
+    <view class="happy">
+      <image src='../img/HappyBirthday.png'></image>
+    </view>
+  </view>
+
+</view>
+
+
+
+
+<view class="button-style1">
+  <view class="lk1">
+    <view class="link1">
+      <button  bindtap='hidden' plain='true'>我很喜欢</button>
+    </view>
+  </view>
+</view>
+<view class="button-style2">
+  <view class="lk2">
+    <view class="link2">
+      <button  bindtap='hidden' plain='true'>我不喜欢</button>
+    </view>
+  </view>
+</view>
+<view class="bg-bubbles">
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+</view>
+<!-- <wxs src='js/jquery.js'></wxs> -->
+<audio id='bgmusic' src="{{src}}" controls loop class='myAudio' />
