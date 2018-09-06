@@ -494,7 +494,6 @@ a.lk1:hover {
 }
 
 .link1:hover {
-  background-color: #fff;
   background-color: rgba(255, 255, 255, 0, 2);
   border: 2px solid #bbb;
   transition: all 0.8s;
@@ -506,7 +505,6 @@ a.lk2:hover {
 }
 
 .link2:hover {
-  background-color: #fff;
   background-color: rgba(255, 255, 255, 0, 2);
   border: 2px solid #bbb;
   transition: all 0.8s;

@@ -15,8 +15,7 @@ Page({
 
   hidden:function(e){
     console.log(e.detail);
-    e.x = 100;
-    e.y = 200;
+    // wx.b
   },
   /**
    * 生命周期函数--监听页面加载
@@ -25,6 +24,12 @@ Page({
     
   },
 
+  words: function(){
+    console.log(" ");
+    wx.navigateTo({
+      url: '/pages/words/words',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

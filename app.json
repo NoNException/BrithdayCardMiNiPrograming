@@ -1,7 +1,7 @@
 {
   "pages": [
     
-    "pages/cake/BirthdayCake"
+    "pages/words/words"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",

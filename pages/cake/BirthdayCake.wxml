@@ -9,7 +9,7 @@
   <view class='cake_container'>
     <view class='cake'></view>
     <view class="happy">
-      <image src='../img/HappyBirthday.png'></image>
+      <image src='../cake/img/HappyBirthday.png'></image>
     </view>
   </view>
 
@@ -21,14 +21,14 @@
 <view class="button-style1">
   <view class="lk1">
     <view class="link1">
-      <button  bindtap='hidden' plain='true'>我很喜欢</button>
+      <button  bindtap='words' plain='true'>我很喜欢</button>
     </view>
   </view>
 </view>
 <view class="button-style2">
   <view class="lk2">
     <view class="link2">
-      <button  bindtap='hidden' plain='true'>我不喜欢</button>
+      <button id="dislike" bindtap='hidden' plain='true'>我不喜欢</button>
     </view>
   </view>
 </view>

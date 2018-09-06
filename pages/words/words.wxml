@@ -1,0 +1,30 @@
+<view class="bgcolor">
+
+
+  <view class="bg-bubbles">
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+  </view>
+
+</view>
+<!-- <audio src="music/1.mp3" autoplay="autoplay" loop="loop"> -->
+<view class="section">
+  <scroll-view scroll-with-animation scroll-y style="height: 100%;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <view id="red" style='height:200%'></view>
+
+  </scroll-view>
+  <view class='tabContain'>
+    <view id="green">{{scrollTop}} </view>
+    <view id="a" class="tab">3 </view>
+    <view id="b" class="tab">4 </view>
+    <view id="c" class="tab">5 </view>
+  </view>
+</view>
